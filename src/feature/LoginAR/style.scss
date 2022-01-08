@@ -1,0 +1,40 @@
+.loginAR {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #08081f;
+  color: #fff;
+  min-width: 320px;
+
+  .title {
+    padding: 20px 12px;
+  }
+  i {
+    line-height: 3;
+  }
+  .form {
+    background-color: #32364a;
+    justify-content: space-evenly;
+  }
+  input {
+    outline: none;
+    border: none;
+    background-color: #32364a;
+    color: #fff;
+    padding: 8px;
+  }
+  .submit {
+    background-color: rgba(25, 238, 25, 0.911);
+    border: 1px solid rgb(194, 183, 25);
+    color: #030305;
+    border-radius: 4px;
+    padding: 4px 8px;
+  }
+}
+
+.login {
+  background-image: linear-gradient(to right, #dc2424, #4a569d);
+  height: 100vh;
+  width: 100vw;
+}
