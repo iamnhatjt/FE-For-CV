@@ -16,6 +16,7 @@ export default function Upload() {
   const state = useSelector((state) => state.reducer);
   const [link, setLink] = React.useState("");
   const [count, setCount] = React.useState(1);
+
   let array = [];
   for (var i = 0; i < count; i++) {
     array.push(<Review key={i} />);

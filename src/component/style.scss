@@ -16,6 +16,7 @@
   position: fixed;
   top: 0;
   background-color: rgb(32, 26, 26);
+  z-index: 999;
 }
 
 .loading::after {
