@@ -46,7 +46,7 @@ export default function Index() {
             let expires = "expires=" + d.toUTCString();
             document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
           }
-          setCookie("tokenLogin", data.data.token);
+          setCookie("tokenLogin", data.data.token, 30);
           window.location = "/";
         }
       });

@@ -1,0 +1,19 @@
+.trending {
+  min-height: 100vh;
+  .item {
+    min-height: 200px;
+  }
+  .image-item {
+    width: 200px;
+    max-height: 200px;
+    object-fit: contain;
+  }
+  .title-text {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .author-text {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+}

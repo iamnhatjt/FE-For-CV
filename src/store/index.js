@@ -9,7 +9,17 @@ export const getData = createAsyncThunk("bookpost", async () => {
 const bookPosts = createSlice({
   name: "bookposts",
   initialState: {
-    books: [],
+    books: [
+      {
+        _id: "",
+        title: "",
+        view: "",
+        author: "",
+        from: "",
+        image: "",
+        createAt: "",
+      },
+    ],
     login: false,
     username: "",
   },

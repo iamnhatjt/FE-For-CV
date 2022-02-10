@@ -7,9 +7,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import bookPosts from "./store";
 
 const store = configureStore({
-  reducer: {
-    bookPost: bookPosts,
-  },
+  reducer: bookPosts,
 });
 
 ReactDOM.render(

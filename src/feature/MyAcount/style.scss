@@ -1,0 +1,12 @@
+.account {
+  min-height: 100vh;
+  .book-image {
+    width: 23vw;
+    height: auto;
+    object-fit: contain;
+  }
+  .trash {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+}
