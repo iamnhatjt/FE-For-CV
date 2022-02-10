@@ -19,7 +19,7 @@ function getCookie(cname) {
 const axiosFuntion = (data, url, method = "post") => {
   return axios({
     method: method,
-    url: `http://localhost:5000${url}`,
+    url: `https://g6b47.sse.codesandbox.io${url}`,
     data: { ...data, token: getCookie("tokenLogin") },
   });
 };
